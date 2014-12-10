@@ -1,0 +1,16 @@
+{
+    "name": "noccylabs/public-ip",
+    "description": "Resolve public IP via web APIs",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Christopher Vagnetoft",
+            "email": "cvagnetoft@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "NoccyLabs\\PublicIp\\": "lib/"
+        }
+    }
+}
