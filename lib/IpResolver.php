@@ -10,7 +10,7 @@ class IpResolver
     {
         $resolvers = shuffle(self::$resolvers);
         foreach (self::$resolvers as $resolver) {
-            echo "notice: Testing ". get_class($resolver) . "\n";
+            // echo "notice: Testing ". get_class($resolver) . "\n";
             if (NULL !== ($ip = $resolver->getPublicIp())) {
                 return $ip;
             }
